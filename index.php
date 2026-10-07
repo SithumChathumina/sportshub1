@@ -1,3 +1,4 @@
+<?php include "includes/db.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,6 +6,6 @@
 </head>
 <body>
     <h1>Welcome to NSBM SportsHub</h1>
-    <p>Today's date is: <?php echo date("Y-m-d"); ?></p>
+    <p>Database connected successfully!</p>
 </body>
 </html>
